@@ -1,0 +1,26 @@
+.landing-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 1rem;
+}
+.landing-avatar-container {
+  height: 20vmin;
+  width: 20vmin;
+}
+
+@media only screen and (max-width: 1030px) { 
+  .landing-avatar-container {
+    height: 30vmin;
+    width: 30vmin; 
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .landing-avatar-container {
+    height: 50vmin;
+    width: 50vmin; 
+  }
+}

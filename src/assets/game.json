@@ -1,0 +1,64 @@
+{
+  "fields": [
+    {
+      "position": 0,
+      "color": "green",
+      "category": "start"
+    },
+    {
+      "position": 1,
+      "color": "purple",
+      "category": "action"
+    },
+    {
+      "position": 2,
+      "color": "blue",
+      "category": "never have i ever"
+    },
+    {
+      "position": 3,
+      "color": "red",
+      "category": "joker"
+    },
+    {
+      "position": 4,
+      "color": "yellow",
+      "category": "trivia"
+    },
+    {
+      "position": 5,
+      "color": "orange",
+      "category": "truth or dare"
+    },
+    {
+      "position": 6,
+      "color": "purple",
+      "category": "action"
+    },
+    {
+      "position": 7,
+      "color": "blue",
+      "category": "never have i ever"
+    },
+    {
+      "position": 8,
+      "color": "red",
+      "category": "joker"
+    },
+    {
+      "position": 9,
+      "color": "yellow",
+      "category": "trivia"
+    },
+    {
+      "position": 10,
+      "color": "orange",
+      "category": "truth or dare"
+    },
+    {
+      "position": 11,
+      "color": "finish",
+      "category": "finish"
+    }
+  ]
+}

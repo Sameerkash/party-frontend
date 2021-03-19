@@ -1,0 +1,52 @@
+.game-container {
+  position: relative;
+}
+
+.game {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.challenge-active {
+  filter: blur(3px);
+  background-color: rgba(0, 0, 0, 100%);
+}
+
+.challenge-active-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 20%);
+  z-index: 0;
+}
+
+.temp-button-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  bottom: 0;
+}
+
+.temp-button {
+  background-color: red;
+  padding: 0 0.1rem;
+  color: white;
+  border: 2px solid black;
+}
+
+.overlay-container {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 25%);
+}

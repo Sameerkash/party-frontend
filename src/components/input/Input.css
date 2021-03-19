@@ -1,0 +1,60 @@
+input[type="text"].input {
+    height: auto;
+    max-width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+input[type="text"].input:focus {
+    outline: none;
+}
+
+.input {
+    font-size: var(--input-font-size);
+    padding: var(--input-padding);
+    border-style: solid;
+    border-width: var(--border-width);
+    border-radius: var(--border-radius);
+    color: var(--input-font-color);
+    text-shadow: var(--text-shadow);
+    transition: var(--transition);
+}
+
+.input.default {
+    background-color: var(--color-medium-grey);
+    border-color: var(--color-dark-grey);
+}
+
+.input.default::placeholder {
+    color: var(--color-light-grey);
+}
+
+.input.default.disabled, .input.default.disabled::placeholder {
+    color: var(--color-dark-grey);
+}
+
+.input.blue {
+    background-color: var(--color-medium-blue);
+    border-color: var(--color-dark-blue);
+}
+
+.input.blue::placeholder {
+    color: var(--color-light-blue);
+}
+
+.input.blue.disabled, .input.blue.disabled::placeholder {
+    color: var(--color-dark-blue);
+}
+
+.input.light {
+    background-color: white;
+    color: var(--color-grey-40);
+    border-color: var(--color-grey-40);
+}
+
+.input.light::placeholder {
+    color: var(--color-grey-80);
+}
+
+.input.light.disabled, .input.light.disabled::placeholder {
+    color: var(--color-grey-10);
+}
